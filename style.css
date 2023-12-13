@@ -13,6 +13,22 @@
     justify-content: space-around;
 }
 
+.hungarian {
+    position: absolute;
+    width: 20px;
+    top: 0;
+    right: 40px;
+    margin: 10px;
+}
+
+.english {
+    position: absolute;
+    width: 20px;
+    top: 0;
+    right: 10px;
+    margin: 10px;
+}
+
 .image {
     height: 30vh;
 }
@@ -162,6 +178,11 @@ main {
 
 .other {
     background-color: #99cccc20;
+}
+
+li,
+p {
+    margin-left: 2rem;
 }
 
 .hobbies {
