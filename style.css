@@ -13,6 +13,10 @@
     justify-content: space-around;
 }
 
+.image {
+    height: 30vh;
+}
+
 main {
     background-color: whitesmoke;
 }
@@ -46,7 +50,7 @@ main {
     width: 480px;
     height: 480px;
     position: absolute;
-    top: -250px;
+    top: -280px;
     left: 300px;
     flex-shrink: 2;
 }
@@ -63,13 +67,13 @@ main {
 }
 
 .dot5 {
-    background-color: #6699b3;
+    background-color: #6699b380;
     border-radius: 50%;
     width: 350px;
     height: 350px;
     position: absolute;
     top: -190px;
-    right: 750px;
+    right: 780px;
     flex-shrink: 2;
 }
 
@@ -91,8 +95,8 @@ main {
     width: 480px;
     height: 480px;
     position: absolute;
-    top: -250px;
-    right: 300px;
+    top: -280px;
+    right: 230px;
     flex-shrink: 2;
 }
 
@@ -119,33 +123,44 @@ main {
 }
 
 .profilePicture {
-    width: 300px;
+    width: 400px;
     border-radius: 50%;
     position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 10%;
+    left: 24%;
+    box-shadow: 0 0 20px 10px rgba(127, 153, 230, 0.4);
 }
 
-.names {
-    text-align: center;
-}
 .name {
-    position: absolute;
-    top: 38%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 35%;
+    right: 18%;
+    font-size: 4em;
+    text-align: center;
 }
 
 .nickname {
-    position: absolute;
-    top: 43%;
+    top: 40%;
+    right: 30%;
     text-align: center;
-    left: 50%;
-    transform: translate(-50%, -50%);
+}
+
+.myself {
+    background-color: #99cccc20;
 }
 
 .studies {
+    background-color: white;
+}
+
+.work {
+    background-color: #99cccc20;
+}
+
+.projects {
+    background-color: white;
+}
+
+.other {
     background-color: #99cccc20;
 }
 
@@ -156,7 +171,7 @@ footer {
 
 .snowflake {
     color: #fff;
-    font-size: 1em;
+    font-size: 1.2em;
     font-family: Arial;
     text-shadow: 0 0 1px #000;
 }
