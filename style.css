@@ -8,94 +8,140 @@
     background-color: #99cccc;
     height: 30vh;
     position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
 }
 
 .dot1 {
-    background-color: #6699b3;
+    background-color: #6699b395;
     border-radius: 50%;
     width: 300px;
     height: 300px;
     position: absolute;
     top: -100px;
     left: -100px;
+    flex-shrink: 2;
 }
 
 .dot2 {
-    background-color: #bce6ec;
+    background-color: #bce6ec80;
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 280px;
+    height: 280px;
     position: absolute;
-    top: -50px;
+    top: -220px;
     left: 100px;
+    z-index: 1;
+    flex-shrink: 2;
 }
 
 .dot3 {
-    background-color: #77ccd8;
+    background-color: #77ccd895;
     border-radius: 50%;
-    width: 400px;
-    height: 400px;
+    width: 480px;
+    height: 480px;
     position: absolute;
-    top: -200px;
+    top: -250px;
     left: 300px;
+    flex-shrink: 2;
 }
 
 .dot4 {
     background-color: #7f99e6;
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 280px;
+    height: 280px;
     position: absolute;
     top: 100px;
-    left: 500px;
+    left: 540px;
+    flex-shrink: 2;
 }
 
 .dot5 {
     background-color: #6699b3;
     border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     position: absolute;
-    top: 200px;
-    left: 700px;
+    top: -190px;
+    right: 750px;
+    flex-shrink: 2;
 }
 
 .dot6 {
-    background-color: #bce6ec;
+    background-color: #bce6ec95;
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 280px;
+    height: 280px;
     position: absolute;
-    top: -50px;
+    top: -220px;
     right: 600px;
+    z-index: 1;
+    flex-shrink: 2;
 }
 
 .dot7 {
     background-color: #77ccd8;
     border-radius: 50%;
-    width: 400px;
-    height: 400px;
+    width: 480px;
+    height: 480px;
     position: absolute;
-    top: 100px;
+    top: -250px;
     right: 300px;
+    flex-shrink: 2;
 }
 
 .dot8 {
     background-color: #7f99e6;
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 280px;
+    height: 280px;
     position: absolute;
-    top: 300px;
+    top: 100px;
     right: 100px;
+    flex-shrink: 2;
 }
 
 .dot9 {
-    background-color: #6699b3;
+    background-color: #6699b380;
     border-radius: 50%;
     width: 300px;
     height: 300px;
     position: absolute;
-    top: 500px;
+    top: -100px;
     right: -100px;
+    flex-shrink: 2;
+}
+
+.profilePicture {
+    width: 300px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.names {
+    text-align: center;
+}
+.name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nickname {
+    position: absolute;
+    top: 55%;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+footer {
+    background-color: #99cccc;
+    height: 20rem;
 }
