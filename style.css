@@ -39,10 +39,20 @@
     transform: translate(-50%, -50%);
     font-family: 'Passions Conflict', cursive;
     font-size: 10em;
+    font-weight: 500;
+    text-shadow: 0 0 20px rgba(127, 153, 230, 0.4);
     white-space: nowrap;
     overflow: visible;
     z-index: 2;
     color: black;
+}
+
+.titulus {
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+    font-size: 1.1em;
+    white-space: nowrap;
 }
 
 .circle {
@@ -51,8 +61,18 @@
     right: -30%;
     width: 12rem;
     height: 12rem;
-    border: 6px solid white;
+    border: 3px solid white;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px 10px rgba(127, 153, 230, 0.4);
+}
+
+.enter {
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
 }
 
 .header {
