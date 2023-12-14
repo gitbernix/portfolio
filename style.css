@@ -4,6 +4,34 @@
     padding: 0;
 }
 
+.welcome {
+    background-color: #99cccc80;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+    height: 25rem;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22rem;
+    height: 22rem;
+    border: 6px solid white;
+    border-radius: 50%;
+}
+
 .header {
     background-color: #99cccc;
     height: 25vh;
