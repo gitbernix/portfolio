@@ -11,6 +11,12 @@
             integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
             crossorigin="anonymous"
         />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap"
+            rel="stylesheet"
+        />
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
@@ -33,7 +39,7 @@
                             src="./images/hungarian.png"
                             alt="magyar"
                     /></a>
-                    <a href=""
+                    <a href="english.html"
                         ><img class="english" src="./images/english.png" alt=""
                     /></a>
                 </div>
@@ -43,19 +49,18 @@
             <section>
                 <div class="container image">
                     <div class="row">
-                        <div class="col-5">
+                        <div class="col-12">
                             <img
                                 class="profilePicture"
                                 src="./images/GittaBernadettSquareBlack.jpg"
                                 alt="profile picture"
                             />
                         </div>
-                        <div class="col-7">
+                        <!-- <div class="col-7">
                             <div class="row names mt-4">
-                                <h1 class="name">Bernadett Gitta</h1>
-                                <h3 class="nickname fst-italic">(Berni)</h3>
+                                <h1 class="name">Gitta Bernadett</h1>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </section>
@@ -64,62 +69,254 @@
                 <div class="container-fluid myself p-4">
                     <div class="container">
                         <div class="row">
-                            <h4>About me</h4>
+                            <h4 class="mb-3">About me</h4>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Facilis temporibus facere
-                                totam obcaecati delectus voluptatem optio
-                                laboriosam repellat sint consequuntur. Minus est
-                                modi quos vero quia tempora, nam exercitationem,
-                                voluptatibus, dicta alias ratione fuga. Cumque
-                                iusto facere sapiente, quo corrupti deserunt,
-                                expedita assumenda iure error nulla quos vitae
-                                ipsa perspiciatis libero ut, totam porro non
-                                consectetur nisi minima reprehenderit. Alias
-                                ipsa culpa illo adipisci laudantium fugit ut
-                                ducimus numquam laborum, eveniet architecto non
-                                totam deserunt quo labore illum eligendi
-                                voluptatem debitis! Itaque perferendis,
-                                reiciendis, officia ad adipisci hic, nulla aut
-                                debitis eos aspernatur harum quos optio maxime.
+                                Hello, I am
+                                <span class="fw-semibold fs-4">Berni</span>
+                                . I am so glad you are here!
+                            </p>
+                            <p>
+                                Kreatív vagyok és életvidám, szeretek új
+                                dolgokat tanulni és alkotni. A munkámban
+                                fontosnak tartom a precizitást és a minőséget.
+                                Szívesen vagyok emberek társaságában, ezért a
+                                kizárólagos home office munkalehetőség nem
+                                annyira az én világom. Szeretek csapatban
+                                dolgozni, de önállóan is jól boldogulok és
+                                megbízhatóan, felelősségteljesen állok hozzá a
+                                munkához. Nem rettenek meg, ha külföldi
+                                partnerekkel angol nyelven kell kommunikálni.
+                            </p>
+
+                            <p>
+                                Több éves webáruházi és grafika szerkesztési
+                                (Corel Draw) tapasztalattal rendelkezem. Mivel
+                                korábban a fejlesztési projektekben mindig
+                                megrendelőként vettem részt, így pontosan
+                                átlátom és megértem mindkét oldalt, ezáltal
+                                komplexen tudom elemezni a helyzetet és nem csak
+                                a kódok megírására koncentrálok.
+                            </p>
+
+                            <p>
+                                Tagja vagyok az E-commerce Hungary egyesületnek,
+                                így szakmai előadásokon és konferenciákon is
+                                rendszeresen részt veszek.
+                            </p>
+                            <p>
+                                <a class="details" href="./detailsHU.html"
+                                    >Ha ennél részletesebb információkat is
+                                    szeretnél rólam, kattints ide!</a
+                                >
                             </p>
                         </div>
                     </div>
                 </div>
             </section>
+
+            <section>
+                <div class="container-fluid projects p-4">
+                    <div class="container">
+                        <div class="row">
+                            <h4 class="mb-3">My projects</h4>
+                            <p>
+                                A Progmasters képzés során rengeteg gyakorlati
+                                feladatot készítettünk el, CSS/SCSS, Bootstrap,
+                                JavaScript, TypeScript segítségével, valamint
+                                dolgoztunk Angular, React és Vue
+                                keretrendszerrel is. Ezen felül önszorgalomból
+                                különböző Udemy tanfolyamokkal mélyítem tudásom,
+                                mint például a közel 400 videóból álló
+                                Webfejlesztő képzés, valamint a komplett Angular
+                                kurzus.
+                            </p>
+                            <div class="container projectContainer mb-2">
+                                <div class="card" style="width: 18rem">
+                                    <img
+                                        src="./images/meghivodiszkont.jpg"
+                                        class="card-img-top"
+                                        alt="www.meghivodiszkont.hu"
+                                    />
+                                    <div class="card-body">
+                                        <h5 class="card-title">
+                                            meghivodiszkont.hu
+                                        </h5>
+                                        <p class="card-text">
+                                            Shoprenter alapú webáruház
+                                            teljeskörű beállítása az alapoktól
+                                            kezdve, illetve testreszabása CSS
+                                            segítségével.
+                                        </p>
+                                        <a
+                                            href="https://www.meghivodiszkont.hu/"
+                                            class="btn btn-outline-info cardBtn"
+                                            >Show me</a
+                                        >
+                                    </div>
+                                </div>
+
+                                <div class="card" style="width: 18rem">
+                                    <img
+                                        src="./images/turkiz.jpg"
+                                        class="card-img-top"
+                                        alt="Türkiz webshop oldal"
+                                    />
+                                    <div class="card-body">
+                                        <h5 class="card-title">
+                                            Webshop gyakorlás
+                                        </h5>
+                                        <p class="card-text">
+                                            Iskolai gyakoló feladat, webshop
+                                            témában, Bootstrap segítségével
+                                            létrehozott termékkártyákkal.
+                                        </p>
+                                        <a
+                                            href="https://gitbernix.github.io/Turkiz/"
+                                            class="btn btn-primary cardBtn"
+                                            >Show me</a
+                                        >
+                                    </div>
+                                </div>
+
+                                <div class="card" style="width: 18rem">
+                                    <img
+                                        src="./images/lilcsi.jpg"
+                                        class="card-img-top"
+                                        alt="Lilcsi weboldala"
+                                    />
+                                    <div class="card-body">
+                                        <h5 class="card-title">
+                                            Lilcsi oldala
+                                        </h5>
+                                        <p class="card-text">
+                                            Életem első Bootstrap-el készült, a
+                                            reszponzivitást gyakorló projektje,
+                                            melyet kis unokahúgomnak
+                                            készítettem.
+                                        </p>
+                                        <a
+                                            href="https://gitbernix.github.io/Lilcsi/"
+                                            class="btn btn-primary cardBtn"
+                                            >Show me</a
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="container projectContainer mt-3 mb-2">
+                                <div class="card" style="width: 18rem">
+                                    <img
+                                        src="./images/tindog.jpg"
+                                        class="card-img-top"
+                                        alt="www.meghivodiszkont.hu"
+                                    />
+                                    <div class="card-body">
+                                        <h5 class="card-title">
+                                            TinDog weboldal
+                                        </h5>
+                                        <p class="card-text">
+                                            Ez egy vicces Udemys gyakorló
+                                            projekt, mely eredetileg angol
+                                            nyelvű, de én lefordítottam
+                                            magyarra.
+                                        </p>
+                                        <a
+                                            href="https://gitbernix.github.io/TinDog"
+                                            class="btn btn-outline-info cardBtn"
+                                            >Show me</a
+                                        >
+                                    </div>
+                                </div>
+
+                                <div class="card" style="width: 18rem">
+                                    <img
+                                        src="./images/moving.jpg"
+                                        class="card-img-top"
+                                        alt="Lilcsi weboldala"
+                                    />
+                                    <div class="card-body">
+                                        <h5 class="card-title">
+                                            Moving weboldal
+                                        </h5>
+                                        <p class="card-text">
+                                            Udemy webfejlesztő kurzuson
+                                            Bootstrap gyakorló projektje, mely
+                                            CSS használata nélkül készült.
+                                        </p>
+                                        <a
+                                            href="https://gitbernix.github.io/Moving"
+                                            class="btn btn-primary cardBtn"
+                                            >Show me</a
+                                        >
+                                    </div>
+                                </div>
+
+                                <div class="card" style="width: 18rem">
+                                    <img
+                                        src="./images/comingsoon.jpg"
+                                        class="card-img-top"
+                                        alt="Hotel foglaló oldal"
+                                    />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Vizsgamunka</h5>
+                                        <p class="card-text">
+                                            Angularban készült teljeskörű
+                                            hotelfoglaló weboldal. Elkészülése
+                                            2024. január-februárra várható.
+                                        </p>
+                                        <a
+                                            href="https://gitbernix.github.io/Lilcsi/"
+                                            class="btn btn-primary cardBtn"
+                                            >Show me</a
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <section>
                 <div class="container-fluid studies p-4">
                     <div class="container">
                         <div class="row">
-                            <h4>Tanulmányok</h4>
+                            <h4 class="mb-3">My studies</h4>
                             <ul>
-                                <li class="dates">
+                                <li class="dates fst-italic">
                                     2023. július - 2024. január
                                 </li>
-                                <p>Progmasters Magániskola</p>
-                                <p>Frontend fejlesztő képzés</p>
-                                <p>
+                                <p class="fw-semibold mb-0">
+                                    Progmasters Magániskola (Budapest)
+                                </p>
+                                <p class="mb-0">frontend fejlesztő képzés</p>
+                                <p class="mb-3">
                                     HTML, CSS, SCSS, Bootstrap, JavaScript,
                                     TypeScript, Angular, React, Vue
                                 </p>
-                                <li class="dates">
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Dolor voluptatibus veniam
-                                    ut magni, animi non impedit minus rerum
-                                    laboriosam consequatur!
+                                <li class="dates fst-italic">
+                                    2004. szeptember - 2007. június
                                 </li>
-                                <li>
-                                    Lorem ipsum dolor sit, amet consectetur
-                                    adipisicing elit. Modi numquam explicabo
-                                    tempora rerum quia beatae iusto quidem fugit
-                                    officiis esse.
+                                <p class="fw-semibold mb-0">
+                                    Gábor Dénes Főiskola (Pécs, Budapest)
+                                </p>
+                                <p class="mb-3">mérnök informatikus diploma</p>
+                                <li class="dates fst-italic">
+                                    2001. január - 2002. január
                                 </li>
-                                <li>
-                                    Lorem ipsum dolor sit, amet consectetur
-                                    adipisicing elit. Quos atque quo sint
-                                    recusandae? Vitae laborum modi praesentium
-                                    sed repellat blanditiis.
+                                <p class="fw-semibold mb-0">
+                                    LADO International Institute (Washington DC,
+                                    USA)
+                                </p>
+                                <p class="mb-3">angol nyelvtanfolyam</p>
+                                <li class="dates fst-italic">
+                                    1993. szeptember - 1997. június
                                 </li>
+                                <p class="fw-semibold mb-0">
+                                    JPTE Babits Mihály Gyakorló Gimnázium (Pécs)
+                                </p>
+                                <p class="mb-0">érettségi</p>
                             </ul>
                         </div>
                     </div>
@@ -129,25 +326,48 @@
                 <div class="container-fluid work p-4">
                     <div class="container">
                         <div class="row">
-                            <h4>Korábbi munkahelyek</h4>
+                            <h4 class="mb-3">Work experience</h4>
                             <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section>
-                <div class="container-fluid projects p-4">
-                    <div class="container">
-                        <div class="row">
-                            <h4>Projektek</h4>
-                            <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li class="dates fst-italic">2008. május -</li>
+                                <p class="fw-semibold mb-0">
+                                    www.meghivodiszkont.hu
+                                </p>
+                                <p class="mb-0">
+                                    Saját esküvői meghívó webáruház
+                                    üzemeltetése, 2023. májusig teljes
+                                    munkaidőben, azóta heti néhány órában
+                                </p>
+                                <ul class="mb-3">
+                                    Feladatok:
+
+                                    <li>
+                                        a webáruház és a rendelések teljeskörű
+                                        menedzselése
+                                    </li>
+                                    <li>esküvői meghívó grafika szerkesztés</li>
+                                </ul>
+                                <li class="dates fst-italic">2007-2012</li>
+                                <p class="fw-semibold mb-0">
+                                    Print Produkció Kft. (Budapest)
+                                </p>
+                                <ul class="mb-3">
+                                    Feladatok:
+                                    <li>
+                                        grafikák szerkesztése, nyomtatásra
+                                        előkészítése Corel Draw programban
+                                    </li>
+                                </ul>
+                                <li class="dates fst-italic">2002-2007</li>
+                                <p class="fw-semibold mb-0">
+                                    Gitta Nyomda Kft. (Siklós)
+                                </p>
+                                <ul class="mb-0">
+                                    Feladatok:
+                                    <li>
+                                        grafikák szerkesztése, nyomtatásra
+                                        előkészítése Corel Draw programban
+                                    </li>
+                                </ul>
                             </ul>
                         </div>
                     </div>
@@ -158,11 +378,18 @@
                 <div class="container-fluid other p-4">
                     <div class="container">
                         <div class="row">
-                            <h4>Egyéb</h4>
+                            <h4 class="mb-3">Other</h4>
                             <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li>"B" kategóriás jogosítvány 1997 óta</li>
+                                <li>
+                                    angol középfokú írásbeli és szóbeli
+                                    nyelvizsga
+                                </li>
+                                <li>
+                                    Google Ads, Meta Business Suite, Hotjar,
+                                    Notion, Canva, Shoprenter felületek ismerete
+                                </li>
+                                <li>E-Commerce Hungary tagja vagyok</li>
                             </ul>
                         </div>
                     </div>
@@ -173,7 +400,7 @@
                 <div class="container-fluid hobbies pt-4">
                     <div class="container">
                         <div class="row">
-                            <h4>Hobbik</h4>
+                            <h4>Hobbies</h4>
                             <ul>
                                 <li>Utazás</li>
                                 <p>
@@ -191,9 +418,11 @@
                                 </p>
                                 <li>Filmsorozatok</li>
                                 <p>
-                                    Kedvencek: Servant, Ted Lasso, See, C.B.
-                                    Strike, Trónok harca, Jó reggelt Veronica,
-                                    Különválás, Direkt terápia
+                                    Aktuális kedvenceim: Servant, Ted Lasso,
+                                    See, C.B. Strike, Jó reggelt Veronica,
+                                    Különválás, Direkt terápia, Vaják, Lángoló
+                                    test, Az idő kereke, Gyűrűk ura: A hatalom
+                                    gyűrűi
                                 </p>
                             </ul>
                         </div>
@@ -205,7 +434,7 @@
             <div class="container-fluid pt-5">
                 <div class="container">
                     <div class="row">
-                        <h4 class="pt-2">Kapcsolat</h4>
+                        <h4 class="pt-2">Contact</h4>
                         <p>
                             <span
                                 ><svg
