@@ -71,8 +71,9 @@
 
 .enter {
     border-radius: 50%;
-    width: 5rem;
-    height: 5rem;
+    width: 7rem;
+    height: 7rem;
+    box-shadow: 0 0 20px 10px rgba(127, 153, 230, 0.4);
 }
 
 .header {
@@ -90,6 +91,7 @@
     top: 0;
     right: 40px;
     margin: 10px;
+    z-index: 2;
 }
 
 .english {
@@ -98,6 +100,7 @@
     top: 0;
     right: 10px;
     margin: 10px;
+    z-index: 2;
 }
 
 .image {
@@ -267,7 +270,7 @@ footer {
 
 .snowflake {
     color: #fff;
-    font-size: 1.2em;
+    font-size: 1.6em;
     font-family: Arial;
     text-shadow: 0 0 1px #000;
 }
