@@ -488,3 +488,56 @@ footer {
     -webkit-animation-delay: 3s, 1.5s;
     animation-delay: 3s, 1.5s;
 }
+
+@media only screen and (max-width: 1400px) {
+    .circle {
+        width: 9rem;
+        height: 9rem;
+    }
+
+    .enter {
+        width: 6rem;
+        height: 6rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .welcomeName {
+        font-size: 7em;
+    }
+
+    .titulus {
+        font-size: 1em;
+    }
+
+    .circle {
+        width: 9rem;
+        height: 9rem;
+    }
+
+    .enter {
+        width: 6rem;
+        height: 6rem;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .welcomeName {
+        font-size: 3em;
+    }
+
+    .titulus {
+        font-size: 0.8em;
+    }
+
+    .circle {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .enter {
+        width: 4.6rem;
+        height: 4.6rem;
+        font-size: smaller;
+    }
+}
