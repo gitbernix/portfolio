@@ -292,7 +292,7 @@ main {
 }
 
 .profilePicture {
-    width: 400px;
+    width: 25em;
     border-radius: 50%;
     position: absolute;
     top: 10%;
@@ -501,7 +501,11 @@ footer {
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
+    .profilePicture {
+        width: 20em;
+    }
+
     .welcomeName {
         font-size: 7em;
     }
@@ -518,6 +522,10 @@ footer {
     .enter {
         width: 6rem;
         height: 6rem;
+    }
+
+    .profilePicture {
+        width: 300px;
     }
 }
 
