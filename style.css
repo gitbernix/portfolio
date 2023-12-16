@@ -199,6 +199,7 @@ main {
     top: -100px;
     left: -100px;
     flex-shrink: 2;
+    overflow: hidden;
 }
 
 .dot2 {
@@ -211,6 +212,7 @@ main {
     left: 100px;
     z-index: 1;
     flex-shrink: 2;
+    overflow: hidden;
 }
 
 .dot3 {
@@ -222,6 +224,7 @@ main {
     top: -280px;
     left: 300px;
     flex-shrink: 2;
+    overflow: hidden;
 }
 
 .dot4 {
@@ -233,6 +236,7 @@ main {
     top: 100px;
     left: 540px;
     flex-shrink: 2;
+    overflow: hidden;
 }
 
 .dot5 {
@@ -244,6 +248,7 @@ main {
     top: -190px;
     right: 780px;
     flex-shrink: 2;
+    overflow: hidden;
 }
 
 .dot6 {
@@ -256,6 +261,7 @@ main {
     right: 600px;
     z-index: 1;
     flex-shrink: 2;
+    overflow: hidden;
 }
 
 .dot7 {
@@ -267,6 +273,7 @@ main {
     top: -280px;
     right: 230px;
     flex-shrink: 2;
+    overflow: hidden;
 }
 
 .dot8 {
@@ -278,6 +285,7 @@ main {
     top: 100px;
     right: 100px;
     flex-shrink: 2;
+    overflow: hidden;
 }
 
 .dot9 {
@@ -289,6 +297,7 @@ main {
     top: -100px;
     right: -100px;
     flex-shrink: 2;
+    overflow: hidden;
 }
 
 .profilePicture {
