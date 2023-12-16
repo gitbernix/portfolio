@@ -547,7 +547,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 375px) {
     .welcomeName {
         font-size: 4.5em;
     }
@@ -568,13 +568,17 @@ footer {
     }
 
     .indexDot1 {
-        width: 14em;
-        height: 14em;
-        left: 40%;
+        width: 18.75em;
+        height: 18.75em;
+        top: 40%;
+        left: 17%;
     }
 
     .indexDot2 {
-        top: 9%;
+        width: 17.5em;
+        height: 17.5em;
+        top: 15%;
+        left: 18%;
     }
 
     .indexDot3 {
@@ -588,5 +592,37 @@ footer {
         height: 12em;
         top: 60%;
         left: 40%;
+    }
+
+    .indexDot5 {
+        width: 16em;
+        height: 16em;
+        top: 5%;
+        right: 40%;
+    }
+
+    .indexDot6 {
+        width: 12em;
+        height: 12em;
+        top: 9%;
+        right: 30%;
+    }
+
+    .indexDot7 {
+        width: 25em;
+        height: 25em;
+        top: 5%;
+        right: 18%;
+    }
+
+    .indexDot8 {
+        width: 12em;
+        height: 12em;
+        top: 30%;
+        right: 30%;
+    }
+
+    .welcome {
+        height: 100vh;
     }
 }
