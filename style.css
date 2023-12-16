@@ -20,7 +20,7 @@
     font-family: 'Passions Conflict', cursive;
     font-size: 10em;
     font-weight: 500;
-    white-space: nowrap;
+    white-space: wrap;
 }
 
 .titulus {
@@ -61,6 +61,7 @@
     top: 40%;
     left: 17%;
     flex-shrink: 2;
+    overflow: hidden;
 }
 
 .indexDot2 {
@@ -73,6 +74,7 @@
     left: 18%;
     z-index: 1;
     flex-shrink: 2;
+    overflow: hidden;
 }
 
 .indexDot3 {
@@ -84,6 +86,7 @@
     top: 15%;
     left: 23%;
     flex-shrink: 2;
+    overflow: hidden;
 }
 
 .indexDot4 {
@@ -95,6 +98,7 @@
     top: 50%;
     left: 30%;
     flex-shrink: 2;
+    overflow: hidden;
 }
 
 .indexDot5 {
@@ -106,6 +110,7 @@
     top: 12%;
     right: 40%;
     flex-shrink: 2;
+    overflow: hidden;
 }
 
 .indexDot6 {
@@ -118,6 +123,7 @@
     right: 35%;
     z-index: 1;
     flex-shrink: 2;
+    overflow: hidden;
 }
 
 .indexDot7 {
@@ -129,6 +135,7 @@
     top: 12%;
     right: 18%;
     flex-shrink: 2;
+    overflow: hidden;
 }
 
 .indexDot8 {
@@ -140,6 +147,7 @@
     top: 36%;
     right: 33%;
     flex-shrink: 2;
+    overflow: hidden;
 }
 
 .indexDot9 {
@@ -151,6 +159,7 @@
     top: 40%;
     right: 42%;
     flex-shrink: 2;
+    overflow: hidden;
 }
 
 .header {
@@ -540,7 +549,7 @@ footer {
 
 @media only screen and (max-width: 380px) {
     .welcomeName {
-        font-size: 3em;
+        font-size: 4.5em;
     }
 
     .titulus {
@@ -553,8 +562,31 @@ footer {
     }
 
     .enter {
-        width: 4.6rem;
-        height: 4.6rem;
+        width: 4.5rem;
+        height: 4.5rem;
         font-size: smaller;
+    }
+
+    .indexDot1 {
+        width: 14em;
+        height: 14em;
+        left: 40%;
+    }
+
+    .indexDot2 {
+        top: 9%;
+    }
+
+    .indexDot3 {
+        width: 25em;
+        height: 25em;
+        left: 30%;
+    }
+
+    .indexDot4 {
+        width: 12em;
+        height: 12em;
+        top: 60%;
+        left: 40%;
     }
 }
