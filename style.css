@@ -317,7 +317,8 @@ main {
     border-radius: 50%;
     position: absolute;
     top: 10%;
-    left: 40%;
+    left: 50%;
+    transform: translateX(-50%);
     box-shadow: 0 0 20px 10px rgba(127, 153, 230, 0.4);
 }
 
