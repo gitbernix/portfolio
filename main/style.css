@@ -515,58 +515,226 @@ footer {
     animation-delay: 3s, 1.5s;
 }
 
-@media only screen and (max-width: 1400px) {
-    .circle {
-        width: 9rem;
-        height: 9rem;
-    }
-
-    .enter {
-        width: 6rem;
-        height: 6rem;
-    }
-}
-
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 2560px) {
     .profilePicture {
-        width: 20em;
+        top: 15%;
     }
 
     .welcomeName {
-        font-size: 7em;
+        font-size: 13em;
+        padding-bottom: 0;
+    }
+
+    .titulus {
+        font-size: 1.3em;
+        padding-top: 0;
+        margin-bottom: 1em;
+    }
+    .circle {
+        width: 11em;
+        height: 11em;
+        top: 67%;
+        right: 37%;
+    }
+
+    .enter {
+        width: 7em;
+        height: 7em;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .profilePicture {
+        top: 19%;
+    }
+
+    .welcomeName {
+        font-size: 11em;
+        line-height: 0.7em;
+    }
+    .titulus {
+        font-size: 1.5em;
+        padding-top: 0.6em;
+    }
+
+    .circle {
+        width: 8.8rem;
+        height: 8.8rem;
+        top: 62%;
+        right: 33%;
+    }
+
+    .enter {
+        width: 5.8rem;
+        height: 5.8rem;
+    }
+
+    .indexDot4 {
+        top: 60%;
+    }
+
+    .indexDot8 {
+        top: 52%;
+        right: 28%;
+    }
+
+    .indexDot9 {
+        top: 50%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .profilePicture {
+        top: 22%;
+    }
+    .titulus {
+        font-size: 1.5em;
+        padding-top: 0em;
+    }
+
+    .circle {
+        width: 8.8rem;
+        height: 8.8rem;
+        top: 65%;
+        right: 34%;
+    }
+
+    .enter {
+        width: 5.8rem;
+        height: 5.8rem;
+    }
+
+    .indexDot1 {
+        top: 40%;
+        left: 8%;
+    }
+
+    .indexDot7 {
+        top: 40%;
+        right: 20%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .profilePicture {
+        top: 23%;
+    }
+    .titulus {
+        font-size: 1.4em;
+        padding-top: 0em;
+    }
+
+    .circle {
+        width: 8.5rem;
+        height: 8.5rem;
+        top: 65%;
+        right: 28%;
+    }
+
+    .enter {
+        width: 5.5rem;
+        height: 5.5rem;
+    }
+
+    .indexDot8 {
+        top: 40%;
+        left: 8%;
+    }
+
+    .indexDot7 {
+        top: 40%;
+        left: 20%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .welcomeName {
+        font-size: 8em;
+        line-height: 0.7em;
     }
 
     .titulus {
         font-size: 1em;
+        padding-top: 1em;
     }
 
     .circle {
-        width: 9rem;
-        height: 9rem;
+        width: 8rem;
+        height: 8rem;
+        top: 62%;
+        right: 22%;
     }
 
     .enter {
-        width: 6rem;
-        height: 6rem;
+        width: 5.5rem;
+        height: 5.5rem;
+    }
+
+    .indexDot4 {
+        top: 53%;
+    }
+
+    .indexDot7 {
+        top: 39%;
     }
 
     .profilePicture {
-        width: 300px;
+        width: 21em;
+        top: 28%;
     }
 }
 
 @media only screen and (max-width: 375px) {
+    .profilePicture {
+        width: 19em;
+    }
+
     .welcomeName {
-        font-size: 4.5em;
+        font-size: 7em;
+        line-height: 0.7em;
     }
 
     .titulus {
-        font-size: 0.8em;
+        font-size: 1em;
+        padding-top: 0.8em;
+    }
+
+    .circle {
+        top: 65%;
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .enter {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .indexDot7 {
+        top: 40%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .profilePicture {
+        width: 15em;
+        top: 30%;
+    }
+
+    .welcomeName {
+        font-size: 6em;
+    }
+
+    .titulus {
+        font-size: 0.9em;
+        padding-top: 0.8em;
     }
 
     .circle {
         width: 6rem;
         height: 6rem;
+        right: 25%;
+        top: 63%;
     }
 
     .enter {
@@ -619,7 +787,7 @@ footer {
     .indexDot7 {
         width: 25em;
         height: 25em;
-        top: 5%;
+        top: 45%;
         right: 18%;
     }
 
