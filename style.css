@@ -335,22 +335,6 @@ main {
     background-color: #99cccc20;
 }
 
-.details {
-    color: #6699b3;
-}
-
-.details:hover {
-    color: #7f99e6;
-}
-
-.studies {
-    background-color: #99cccc20;
-}
-
-.work {
-    background-color: white;
-}
-
 .projects {
     background-color: white;
 }
@@ -372,6 +356,22 @@ main {
 
 .cardBtn:hover {
     background-color: #6699b3;
+}
+
+.studies {
+    background-color: #99cccc20;
+}
+
+.work {
+    background-color: white;
+}
+
+.details {
+    color: #6699b3;
+}
+
+.details:hover {
+    color: #7f99e6;
 }
 
 .other {
