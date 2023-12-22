@@ -378,9 +378,8 @@ main {
     background-color: #99cccc20;
 }
 
-li,
-p {
-    margin-left: 2rem;
+li {
+    margin-left: 1.2em;
 }
 
 .hobbies {
@@ -392,8 +391,11 @@ footer {
     height: 16rem;
 }
 
+/* snowing */
+/* ------------------------------------------------ */
+
 .snowflake {
-    color: #fff;
+    color: white;
     font-size: 1.6em;
     font-family: Arial;
     text-shadow: 0 0 1px #000;
