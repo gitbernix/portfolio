@@ -379,6 +379,7 @@ main {
 
 li {
     margin-left: 1.2em;
+    list-style-position: outside;
 }
 
 .hobbies {
