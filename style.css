@@ -519,8 +519,12 @@ footer {
 /* ------------------------------------------------ */
 
 @media only screen and (max-width: 2560px) {
+    .image {
+        height: 17em;
+    }
+
     .profilePicture {
-        top: 15%;
+        width: 20em;
     }
 
     .welcomeName {
@@ -547,8 +551,12 @@ footer {
 }
 
 @media only screen and (max-width: 1440px) {
+    .image {
+        height: 16em;
+    }
+
     .profilePicture {
-        top: 19%;
+        width: 19em;
     }
 
     .welcomeName {
@@ -587,9 +595,14 @@ footer {
 }
 
 @media only screen and (max-width: 1024px) {
-    .profilePicture {
-        top: 22%;
+    .image {
+        height: 15em;
     }
+
+    .profilePicture {
+        width: 18em;
+    }
+
     .titulus {
         font-size: 1.5em;
         padding-top: 0em;
@@ -619,9 +632,14 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
-    .profilePicture {
-        top: 23%;
+    .image {
+        height: 14em;
     }
+
+    .profilePicture {
+        width: 17em;
+    }
+
     .titulus {
         font-size: 1.4em;
         padding-top: 0em;
@@ -651,6 +669,14 @@ footer {
 }
 
 @media only screen and (max-width: 425px) {
+    .image {
+        height: 13em;
+    }
+
+    .profilePicture {
+        width: 16em;
+    }
+
     .welcomeName {
         font-size: 8em;
         line-height: 0.7em;
@@ -680,11 +706,6 @@ footer {
     .indexDot7 {
         top: 39%;
     }
-
-    /* .profilePicture {
-        width: 16em;
-        top: 26%;
-    } */
 }
 
 @media only screen and (max-width: 375px) {
