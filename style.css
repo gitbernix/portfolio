@@ -5,9 +5,8 @@
     font-family: 'Afacad', sans-serif;
 }
 
-header {
-    overflow: hidden;
-}
+/* ---------------------- outside ------------------------------ */
+
 .welcome {
     background-color: #99cccc80;
     height: 100vh;
@@ -56,6 +55,8 @@ header {
     height: 7rem;
     box-shadow: 0 0 20px 10px rgba(127, 153, 230, 0.4);
 }
+
+/* ---------------------- dots outside ------------------------------ */
 
 .indexDot1 {
     background-color: #6699b395;
@@ -167,7 +168,13 @@ header {
     overflow: hidden;
 }
 
-.header {
+/* ---------------------- inside ------------------------------ */
+
+header {
+    overflow: hidden;
+}
+
+.headerDots {
     background-color: #99cccc;
     height: 25vh;
     position: relative;
@@ -197,6 +204,8 @@ header {
 main {
     background-color: whitesmoke;
 }
+
+/* ---------------------- dots in header inside ------------------------------ */
 
 .dot1 {
     background-color: #6699b395;
@@ -322,15 +331,6 @@ main {
     z-index: 2;
 }
 
-.name {
-    top: 45%;
-    right: 18%;
-    font-size: 4em;
-    text-align: center;
-    /* font-family: 'Passions Conflict', cursive; */
-    font-weight: 400;
-}
-
 .myself {
     background-color: #99cccc20;
 }
@@ -392,8 +392,7 @@ footer {
     height: 16rem;
 }
 
-/* snowing */
-/* ------------------------------------------------ */
+/* ---------------------- snowing ------------------------------ */
 
 .snowflake {
     color: white;
@@ -518,8 +517,7 @@ footer {
     animation-delay: 3s, 1.5s;
 }
 
-/* media queries */
-/* ------------------------------------------------ */
+/* ---------------------- media query 2560px ------------------------------ */
 
 @media only screen and (max-width: 2560px) {
     .image {
@@ -552,6 +550,8 @@ footer {
         height: 7em;
     }
 }
+
+/* ---------------------- media query 1440px ------------------------------ */
 
 @media only screen and (max-width: 1440px) {
     .image {
@@ -597,6 +597,8 @@ footer {
     }
 }
 
+/* ---------------------- media query 1024px ------------------------------ */
+
 @media only screen and (max-width: 1024px) {
     .image {
         height: 15em;
@@ -634,6 +636,8 @@ footer {
     }
 }
 
+/* ---------------------- media query 768px ------------------------------ */
+
 @media only screen and (max-width: 768px) {
     .image {
         height: 14em;
@@ -670,6 +674,8 @@ footer {
         left: 20%;
     }
 }
+
+/* ---------------------- media query 430px ------------------------------ */
 
 @media only screen and (max-width: 430px) {
     .image {
@@ -711,6 +717,8 @@ footer {
     }
 }
 
+/* ---------------------- media query 375px ------------------------------ */
+
 @media only screen and (max-width: 375px) {
     .image {
         height: 12em;
@@ -746,6 +754,7 @@ footer {
         top: 40%;
     }
 }
+/* ---------------------- media query 320px ------------------------------ */
 
 @media only screen and (max-width: 320px) {
     .image {
