@@ -33,6 +33,7 @@ header {
     position: relative;
     z-index: 2;
     white-space: wrap;
+    margin-top: -1em;
 }
 
 .circle {
@@ -670,7 +671,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 430px) {
     .image {
         height: 13em;
     }
@@ -727,6 +728,7 @@ footer {
     .titulus {
         font-size: 1em;
         padding-top: 0.8em;
+        margin-top: 1em;
     }
 
     .circle {
