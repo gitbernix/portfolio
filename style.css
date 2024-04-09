@@ -395,7 +395,7 @@ footer {
 
 /* ---------------------- snowing ------------------------------ */
 
-.snowflake {
+/* .snowflake {
     color: white;
     font-size: 1.6em;
     font-family: Arial;
@@ -516,7 +516,7 @@ footer {
     left: 90%;
     -webkit-animation-delay: 3s, 1.5s;
     animation-delay: 3s, 1.5s;
-}
+} */
 
 /* ---------------------- media query 2560px ------------------------------ */
 
